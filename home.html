@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kaka Codesphere</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+      <div class="container">
+        <span class="navbar-brand fw-bold">CODESPHERE</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <div class="nav-card">Home</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <div class="nav-card">About</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <div class="nav-card">Services</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <div class="nav-card">Projects</div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <div class="nav-card">Contact</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="image-container1">
+      <div class="parallex1">
+        <h3>Let's Build Something Great</h3>
+      </div>
+
+      <div class="overlay1"></div>
+    </div>
+
+    <div class="service-container">
+      <h1>Our Services</h1>
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card h-100">
+              <i class="bx bxs-terminal"></i>
+              <h5>Website Development</h5>
+              <p>
+                From personal portfolios to e-commerce platforms, our designs
+                prioritize functionality, aesthetics, and SEO optimization.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card h-100">
+              <i class="bx bxs-palette"></i>
+              <h5>Website Design</h5>
+              <p>
+                From mobile applications to custom software systems, we design,
+                develop, and deliver user-friendly, efficient, and scalable
+                solutions.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card h-100">
+              <i class="bx bxs-wrench"></i>
+              <h5>Website Maintenance</h5>
+              <p>
+                We amplify your brand’s presence across social media through
+                engaging content, targeted campaigns, and audience interaction.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="service-card h-100">
+              <i class="bx bxs-brush"></i>
+              <h5>Graphic Design</h5>
+              <p>
+                We explore and test AI systems to create innovative solutions
+                that enhance human-AI interactions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="call-paragraph">
+          "Bring Your Vision to Life! Whether you need a stunning website,
+          powerful web development solutions, or eye-catching graphic design,
+          our agency has you covered. We create sleek, user-friendly, and
+          high-performing digital experiences tailored to your needs. Let’s turn
+          your ideas into reality—Contact us today!"
+        </p>
+      </div>
+    </div>
+    <div class="floating-menu">
+      <div class="fab-btn" id="toggleBtn" onclick="toggleMenu()">
+        <i class="bx bx-message-detail"></i>
+        <!-- Default chat icon -->
+      </div>
+      <a href="https://wa.me/1234567890" target="_blank" class="fab-icon">
+        <i class="bx bxl-whatsapp"></i>
+      </a>
+      <a href="tel:+1234567890" class="fab-icon">
+        <i class="bx bx-phone"></i>
+      </a>
+    </div>
+    <div class="floating-social">
+      <a href="#" class="social-icon"><i class="bx bxl-facebook"></i></a>
+
+      <a href="#" class="social-icon"><i class="bx bx-globe"></i></a>
+      <a href="#" class="social-icon"><i class="bx bxl-instagram"></i></a>
+    </div>
+    <section class="container my-5">
+      <h1>Recent Projects</h1>
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/vsl.PNG"
+                    class="card-img-top project-image"
+                    alt="Project 1"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">E-commerce Website</h5>
+                    <p class="card-text">
+                      A modern and responsive online store.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/law.PNG"
+                    class="card-img-top project-image"
+                    alt="Project 2"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Corporate Website</h5>
+                    <p class="card-text">A professional site for a law firm.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/kakadev.PNG"
+                    class="card-img-top project-image"
+                    alt="Project 3"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Portfolio Website</h5>
+                    <p class="card-text">A sleek design for a photographer.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/graphic2.jpg"
+                    class="card-img-top project-image"
+                    alt="Project 4"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Social Media poster</h5>
+                    <p class="card-text">A content-rich blogging platform.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/graphic4.jpg"
+                    class="card-img-top project-image"
+                    alt="Project 5"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Social Media Poster</h5>
+                    <p class="card-text">A conversion-focused landing page.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card project-card">
+                  <img
+                    src="assets/graphic3.jpg"
+                    class="card-img-top project-image"
+                    alt="Project 5"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Social Media Poster</h5>
+                    <p class="card-text">A conversion-focused landing page.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#projectCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#projectCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- <section class="tools-section text-center">
+      <div class="container">
+        <h1>Tools We Use</h1>
+        <div class="row g-4">
+          
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-python-94.png"
+                alt="Python"
+                class="tool-logo"
+              />
+              <p>Python</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-react-80.png"
+                alt="React"
+                class="tool-logo"
+              />
+              <p>React</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-bootstrap-logo-96.png"
+                alt="Bootstrap"
+                class="tool-logo"
+              />
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-django-128.png"
+                alt="Django"
+                class="tool-logo"
+              />
+              <p>Django</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-html-5-128.png"
+                alt="html"
+                class="tool-logo"
+              />
+              <p>HTML</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-figma-96.png"
+                alt="Figma"
+                class="tool-logo"
+              />
+              <p>Figma</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-javascript-96.png"
+                alt="Javascript"
+                class="tool-logo"
+              />
+              <p>Javascript</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-tailwind-css-128.png"
+                alt="Tailwind"
+                class="tool-logo"
+              />
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <div class="tool-card">
+              <img
+                src="assets/icons8-css-logo-100.png"
+                alt="CSS"
+                class="tool-logo"
+              />
+              <p>CSS</p>
+            </div>
+          
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="tool-card">
+            <img
+              src="assets/icons8-postgresql-100.png"
+              alt="postgresql"
+              class="tool-logo"
+            />
+            <p>postgresql</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <div class="container my-5">
+      <div class="row g-5 align-items-center">
+        <!-- Contact Form Column -->
+        <div class="col-lg-6">
+          <div class="contact-section">
+            <h2 class="section-title">GET IN TOUCH</h2>
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Name" />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="tel" class="form-control" placeholder="Phone" />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                  />
+                </div>
+              </div>
+              <textarea
+                class="form-control form-textarea"
+                placeholder="How can we help you? Feel free to get in touch!"
+              ></textarea>
+
+              <div class="form-check mb-4">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="agreeCheck"
+                />
+                <label class="form-check-label" for="agreeCheck">
+                  I understand that my data will be collected and stored, and I
+                  agree to this
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                <i class="bx bx-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-lg-6">
+          <img
+            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt="Contact us"
+            class="contact-image"
+          />
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="container-fluid tools-container">
+      <div class="marquee">
+        <p>
+          Tools we <br />
+          use
+        </p>
+        <img src="assets/icons8-html-5-128.png" alt="HTML" class="tool-icon" />
+        <img src="assets/icons8-css-logo-100.png" alt="CSS" class="tool-icon" />
+        <img
+          src="assets/icons8-javascript-96.png"
+          alt="JavaScript"
+          class="tool-icon"
+        />
+        <img src="assets/icons8-react-80.png" alt="React" class="tool-icon" />
+        <img
+          src="assets/icons8-django-128.png"
+          alt="django"
+          class="tool-icon"
+        />
+        <img
+          src="assets/icons8-bootstrap-logo-96.png"
+          alt="Bootstrap"
+          class="tool-icon"
+        />
+        <img
+          src="assets/icons8-postgresql-100.png"
+          alt="postgresql"
+          class="tool-icon"
+        />
+        <img src="assets/icons8-figma-96.png" alt="Figma" class="tool-icon" />
+        <img src="assets/icons8-python-94.png" alt="Python" class="tool-icon" />
+        <img
+          src="assets/icons8-tailwind-css-128.png"
+          alt="tailwind"
+          class="tool-icon"
+        />
+      </div>
+    </div>
+    <hr style="width: 60vw; margin: auto" />
+    <footer class="copyright">
+      &copy; 2025 Kaka Codesphere. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
