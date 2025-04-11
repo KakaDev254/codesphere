@@ -1,18 +1,18 @@
 body {
   height: 1600px;
-  background-color: #031a09;
+  /* background-color: #b7b1f2; */
 }
 
 .custom-navbar {
-  background-color: #e6efe8;
+  background-color: #2a004e;
 }
 .navbar-brand {
-  color: #031a09;
+  color: #efe9d5;
 }
 
 .nav-card {
   /* background-color: #316c40; */
-  color: #031a09;
+  color: #fbf3b9;
   height: 40px;
   display: flex;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -36,8 +36,8 @@ body {
   outline: none;
 }
 
-.mail-span {
-  background-color: #031a09;
+/* .mail-span {
+  background-color: #c62300;
   display: none;
   align-items: center;
   justify-content: space-between;
@@ -61,12 +61,12 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #9befb1;
-}
+} */
 
 .image-container1 {
   background-image: url(assets/code\ asset1.png);
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100%;
-  background: #031a09;
+  background: #500073;
   opacity: 0.4;
   transition: 0.3s ease-in-out;
   z-index: -1;
@@ -142,7 +142,7 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #13521e;
+  background-color: #c62300;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,7 +154,7 @@ body {
 }
 
 .fab-btn {
-  background-color: #f9e159; /* Pink for close button */
+  background-color: #c62300;
 }
 
 .fab-icon:hover,
@@ -190,7 +190,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  color: #333;
+  color: #efe9d5;
 
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -198,19 +198,19 @@ body {
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 .social-icon:nth-child(1) {
-  background-color: #f9e159;
+  background-color: #f14a00;
 }
 .social-icon:nth-child(2) {
-  background-color: #13521e;
+  background-color: #c62300;
   color: #e6efe8;
 }
 .social-icon:nth-child(3) {
-  background-color: #f9e159;
+  background-color: #f14a00;
 }
 
 .social-icon:hover {
   transform: scale(1.1);
-  background-color: #ff69b4; /* Highlight effect */
+  background-color: #2a004e;
   color: white;
 }
 
@@ -251,7 +251,7 @@ body {
 }
 h1 {
   font-size: 2.5rem;
-  color: #fcfffd;
+  color: #c62300;
   font-weight: 500;
   text-align: center;
   padding-bottom: 2rem;
@@ -261,13 +261,13 @@ h1::after {
   display: block;
   width: 50px;
   height: 5px;
-  background-color: #eff5f1;
+  background-color: #c62300;
   margin: 8px auto 0;
 }
 .service-card {
-  background-color: #04230c;
+  /* background-color: #2a004e; */
   border: 2px solid transparent;
-  /* border-image: linear-gradient(45deg, #bfecbc, #0f8309); */
+  border-color: #2a004e;
   border-image-slice: 1;
   padding: 20px;
   height: 300px;
@@ -284,18 +284,18 @@ h1::after {
 
 .service-card i {
   font-size: 50px;
-  color: #d9cc40;
+  color: #c62300;
   margin-bottom: 15px;
 }
 .service-card h5 {
   font-weight: bold;
-  color: #9befb1;
+  color: #2a004e;
   margin-bottom: 10px;
 }
 
 .service-card p {
   font-size: 16px;
-  color: #f6faf6;
+  color: #500073;
   line-height: 1.6;
   animation: fadeInUp 1s ease-in-out;
 }
@@ -307,7 +307,7 @@ h1::after {
 
   text-align: center;
   padding: 20px;
-  background: linear-gradient(45deg, #053707, #d9cc40);
+  background: linear-gradient(45deg, #500073, #2a004e);
   color: white;
   border-radius: 8px;
   margin-top: 30px;
@@ -329,14 +329,14 @@ hr {
   color: #25d366;
 }
 .carousel h5 {
-  color: #9befb1;
+  color: #c62300;
 }
 .carousel p {
   color: #f2f7f4;
 }
 
 .project-card {
-  background-color: #053707;
+  background-color: #500073;
 
   border-radius: 10px;
   overflow: hidden;
@@ -351,19 +351,19 @@ hr {
 }
 
 .contact-section {
-  background-color: #13521e;
+  background-color: #2a004e;
   padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 .contact-section input {
-  border-color: #25d366;
+  border-color: #c62300;
 }
 .contact-section h2 {
-  color: #9befb1;
+  color: #c62300;
 }
 .form-check label {
-  color: #9befb1;
+  color: #f14a00;
 }
 
 .contact-image {
@@ -381,13 +381,13 @@ hr {
 }
 
 .btn-primary {
-  background-color: #25d366;
+  background-color: #f14a00;
   border: none;
   padding: 12px 30px;
   font-weight: 600;
 }
 .btn-primary:hover {
-  background-color: #031a09;
+  background-color: #c62300;
 }
 
 .section-title {
@@ -401,7 +401,7 @@ hr {
 }
 
 .tools-container {
-  background-color: #031a09;
+  background-color: #2a004e;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
@@ -416,7 +416,7 @@ hr {
   animation: scroll 7s linear infinite;
 }
 .marquee p {
-  color: #9befb1;
+  color: #c62300;
   font-size: larger;
   font-weight: 500;
   padding-right: 2rem;
@@ -436,8 +436,8 @@ hr {
 .copyright {
   text-align: center;
   padding: 15px;
-  color: #d9cc40;
-  background: #031a09;
+  color: #c62300;
+  background: #2a004e;
   font-size: 14px;
   margin-top: 20px;
 }
